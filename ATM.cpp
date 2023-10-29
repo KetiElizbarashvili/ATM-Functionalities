@@ -100,15 +100,14 @@ int main()
 		system("cls");
 
 		cout << endl << "****Welcome to ATM*****" << endl;
-		cout << endl << "Enter Your Account No ";	  // asking user to enter account no
+		cout << endl << "Enter Your Account No ";	  
 		cin >> enterAccountNo;
 
-		cout << endl << "Enter PIN ";				 // asking user to enter PIN
+		cout << endl << "Enter PIN ";				
 		cin >> enterPIN;
 
 
 
-		// check whether enter values matches with user details
 		if ((enterAccountNo == user1.getAccountNo()) && (enterPIN == user1.getPIN()))
 		{
 			do
