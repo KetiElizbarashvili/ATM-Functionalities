@@ -4,9 +4,9 @@
 using namespace std;
 
 
-class atm										// class atm 
+class atm									
 {
-private:										// private member varibles
+private:										
 	long int account_No;
 	string name;
 	int PIN;
