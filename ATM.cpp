@@ -55,22 +55,21 @@ public:
 		{
 			mobile_No = mob_new;						
 			cout << endl << "Sucessfully Updated Mobile no.";
-			_getch();				//getch is to hold the screen untill user press any key 																			
+			_getch();				 																			
 		}
 
-		else							// Does not update if old mobile no. does not matches
+		else						
 		{
 			cout << endl << "Incorrect !!! Old Mobile no";
 			_getch();			  
 		}
 	}
 
-	//cashWithDraw function is used to withdraw money from ATM
 	void cashWithDraw(int amount_a)
 	{
-		if (amount_a > 0 && amount_a < balance)		// check entered amount validity
+		if (amount_a > 0 && amount_a < balance)		
 		{
-			balance -= amount_a;		// balance = balance - amount_a
+			balance -= amount_a;		
 			cout << endl << "Please Collect Your Cash";
 			cout << endl << "Available Balance :" << balance;
 			_getch();				
