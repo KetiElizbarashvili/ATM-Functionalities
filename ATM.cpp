@@ -126,11 +126,10 @@ int main()
 				cout << endl << "5. Exit" << endl;
 				cin >> choice;						
 
-				switch (choice)						// switch condition
+				switch (choice)						
 				{
 				case 1:							
 					cout << endl << "Your Bank balance is :" << user1.getBalance();
-					// getBalance is ... printing the users	bank balance
 					_getch();
 					break;
 
@@ -138,8 +137,8 @@ int main()
 				case 2:								
 					cout << endl << "Enter the amount :";
 					cin >> amount;
-					user1.cashWithDraw(amount);			// calling cashWithdraw function 
-														// passing the withdraw amount 
+					user1.cashWithDraw(amount);			
+														
 					break;
 
 
@@ -149,26 +148,24 @@ int main()
 					cout << endl << "-> Name      :" << user1.getName();
 					cout << endl << "-> Balance   :" << user1.getBalance();
 					cout << endl << "-> Mobile No. :" << user1.getMobileNo();
-					// getting and printing user details
 					_getch();
 					break;
 
 
 				case 4:								 
 					cout << endl << "Enter Old Mobile No. ";
-					cin >> oldMobileNo;							// take old mobile no
+					cin >> oldMobileNo;							
 
 					cout << endl << "Enter New Mobile No. ";
-					cin >> newMobileNo;							// take new mobile no
-
-					user1.setMobile(oldMobileNo, newMobileNo);	// now set new mobile no
+					cin >> newMobileNo;							
+					user1.setMobile(oldMobileNo, newMobileNo);	
 					break;
 
 					
 				case 5:
-					exit(0);						// exit application
+					exit(0);						
 
-				default:							// handle invalid user inputs
+				default:							
 					cout << endl << "Enter Valid Data !!!";
 				}
 
