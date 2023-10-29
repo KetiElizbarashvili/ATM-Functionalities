@@ -169,7 +169,7 @@ int main()
 					cout << endl << "Enter Valid Data !!!";
 				}
 
-			} while (1);				  // condition will always TRUE and loop is										capable of running infinite times
+			} while (1);				  								
 		}
 
 		else
@@ -177,7 +177,6 @@ int main()
 			cout << endl << "User Details are Invalid !!! ";
 			_getch();
 		}
-	} while (1);						// condition will always TRUE and loop is										capable of running infinite times
-
+	} while (1);						
 	return 0;
 } 
