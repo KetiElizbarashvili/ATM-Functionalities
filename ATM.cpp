@@ -86,14 +86,12 @@ public:
 
 int main()
 {
-	int choice = 0, enterPIN;		//enterPIN and enterAccountNo. ---> user authentication
+	int choice = 0, enterPIN;	
 	long int enterAccountNo;
 
 	system("cls");
 
-	// created User ( object )
 	atm user1;
-	// Set User Details ( into object )         ( Setting Default Data )
 	user1.setData(987654321, "Hardik", 1234, 50000, "9370054900");
 
 
