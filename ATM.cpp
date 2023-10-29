@@ -13,19 +13,19 @@ private:
 	double balance;
 	string mobile_No;
 
-public:											// public member functions
+public:											
 
-	// setData function is setting the Data into the private member variables
+	
 	void setData(long int account_No_a, string name_a, int PIN_a, double balance_a, string mobile_No_a)
 	{
-		account_No = account_No_a;	 // assigning the formal arguments to the private member var's
+		account_No = account_No_a;	 
 		name = name_a;
 		PIN = PIN_a;
 		balance = balance_a;
 		mobile_No = mobile_No_a;
 	}
 
-	//getAccountNo function is returning the user's account no.
+	
 	long int getAccountNo()
 	{
 		return account_No;
