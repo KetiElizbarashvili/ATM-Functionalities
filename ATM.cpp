@@ -29,36 +29,31 @@ public:
 		return account_No;
 	}
 
-	//getName function is returning the user's Name
 	string getName()
 	{
 		return name;
 	}
 
-	//getPIN function is returning the user's PIN
 	int getPIN()
 	{
 		return PIN;
 	}
 
-	//getBalance is returning the user's Bank Balance
 	double getBalance()
 	{
 		return balance;
 	}
 
-	//getMobileNo is returning the user's Mobile No.
 	string getMobileNo()
 	{
 		return mobile_No;
 	}
 
-	//setMobile function is Updating the user mobile no 
     void setMobile(string mob_prev, string mob_new)
 	{
-		if (mob_prev == mobile_No)						// it will check old Mobile no
+		if (mob_prev == mobile_No)						
 		{
-			mobile_No = mob_new;						// and Update with new, if old matches
+			mobile_No = mob_new;						
 			cout << endl << "Sucessfully Updated Mobile no.";
 			_getch();				//getch is to hold the screen untill user press any key 																			
 		}
