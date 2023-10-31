@@ -10,4 +10,3 @@ The functionalities are:
 4) Update Mobile no. :The user can update mobile number linked to the bank account.  
 
 
-The functionalities are:
