@@ -12,4 +12,3 @@ The functionalities are:
 
 The functionalities are:
 1) Check balance: The user can check the account balance.
-2)  Cash WithDraw: User can Withdraw cash from the ATM, but the only condition is user must enter the valid input, like the amount to be withdraw should be less than account balance.
