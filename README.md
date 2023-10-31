@@ -11,4 +11,3 @@ The functionalities are:
 
 
 The functionalities are:
-1) Check balance: The user can check the account balance.
